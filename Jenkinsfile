@@ -21,6 +21,13 @@ pipeline {
           }
         }
 
+        stage('DevOpslab') {
+          steps {
+            echo 'This is Devops lab'
+            sh 'echo "this is shell"'
+          }
+        }
+
       }
     }
 
